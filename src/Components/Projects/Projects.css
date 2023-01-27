@@ -60,6 +60,6 @@
   overflow-x: scroll;
 }
 
-.scrollRow::-webkit-scrollbar {
+.scrollProject::-webkit-scrollbar {
   display: none;
 }
