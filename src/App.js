@@ -1,7 +1,8 @@
 import './App.css';
-import TopBar from './components/TopBar/TopBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import TopBar from './components/TopBar/TopBar';
 import Banner from './components/Banner/Banner';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <BrowserRouter>
         <TopBar />
         <Banner />
-        <Routes></Routes>
+        <Routes>
+          <Route path="/about" element={<About />} />
+        </Routes>
       </BrowserRouter>
     </div>
   );
