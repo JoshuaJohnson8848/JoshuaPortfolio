@@ -10,6 +10,7 @@ import {
   GeoAltFill,
   TelephonePlusFill,
   EnvelopeFill,
+  Linkedin,
 } from 'react-bootstrap-icons';
 
 function Contact() {
@@ -61,7 +62,17 @@ function Contact() {
             </Col>
             <Col className="logo2">
               <EnvelopeFill size={70} />
+              <br />
+              <br />
               <h5 className="mail">joshuatjohnson255@gmail.com</h5>
+            </Col>
+            <Col className="logo2">
+              <a href="https://www.linkedin.com/in/joshua-johnson-91149b255/">
+                <Linkedin size={72} />
+                <br />
+                <br />
+                <h5>Linkedin</h5>
+              </a>
             </Col>
           </Row>
         </Card>
