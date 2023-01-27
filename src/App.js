@@ -1,5 +1,5 @@
 import './App.css';
-import TopBar from './Components/TopBar/TopBar';
+import TopBar from './components/TopBar/TopBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
