@@ -9,6 +9,12 @@ function TopBar() {
   return (
     <div>
       <Navbar className="color_nav">
+        <a
+          className="cv"
+          href={require('../../assets/Resume_Joshua_Johnson_3.pdf')}
+        >
+          CV ⬇
+        </a>
         <Container>
           <Nav className="m-auto">
             <Navbar.Brand

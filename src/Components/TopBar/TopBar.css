@@ -14,3 +14,14 @@
 .Navtext_color:hover {
   color: chartreuse;
 }
+
+.cv {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: larger;
+}
+
+.cv:hover {
+  color: chartreuse;
+}
