@@ -1,0 +1,57 @@
+.project_card {
+  width: 20rem;
+  height: 25rem;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 150px 0px 150px 0px;
+  justify-content: center;
+}
+
+.project_Header {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  align-items: center;
+}
+
+.productImg {
+  width: 19.9rem;
+  height: 10rem;
+}
+
+.project_title {
+  text-align: center;
+  color: red;
+}
+
+.project_desc {
+  text-align: center;
+  font-weight: bold;
+}
+
+.project_link {
+  color: blue;
+  text-align: center;
+}
+
+.main_title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 3rem;
+}
+
+.project_link:hover {
+  color: rgb(236, 18, 18);
+  cursor: pointer;
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 40px #000000;
+}
