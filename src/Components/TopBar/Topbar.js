@@ -11,7 +11,7 @@ function TopBar() {
       <Navbar className="color_nav">
         <a
           className="cv"
-          href={require('../../assets/Resume_Joshua_Johnson_3.pdf')}
+          href={require('../../assets/Resume_Joshua_Johnson_4.pdf')}
         >
           CV ⬇
         </a>
