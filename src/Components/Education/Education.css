@@ -1,7 +1,8 @@
 .education_card {
   width: 40rem;
   height: 20rem;
-  background-color: rgb(99, 227, 225);
+  /* background-color: rgb(99, 227, 225); */
+  background-color: #fd8a8a;
   border: 1px solid black;
   overflow-y: scroll;
 }
